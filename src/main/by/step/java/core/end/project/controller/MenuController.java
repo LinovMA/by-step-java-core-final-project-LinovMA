@@ -157,6 +157,6 @@ public class MenuController {
     }
 
     private void workWithUserMenu() {
-
+        showMenu(menu);
     }
 }

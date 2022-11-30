@@ -38,7 +38,7 @@ public class UsersFile extends FileDAO {
         if (typeOfUser.equals(TypeOfUser.ADMINISTRATOR.toString().toLowerCase())) {
             tempUserType = TypeOfUser.ADMINISTRATOR;
         } else {
-            tempUserType = TypeOfUser.TEACHER;
+            tempUserType = TypeOfUser.USER;
         }
         return tempUserType;
     }
